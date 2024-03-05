@@ -809,7 +809,6 @@ config ARCH_MT6735
 	select IRQ_DOMAIN_DEBUG
 	select GENERIC_SCHED_CLOCK
 	select VFP_OPT
-	select MTK_SYSTRACKER
 	select MTK_SYS_CIRQ
 	select MTK_EIC
 	select MTK_GIC
@@ -843,7 +842,6 @@ config ARCH_MT6735M
 	select IRQ_DOMAIN_DEBUG
 	select GENERIC_SCHED_CLOCK
 	select VFP_OPT
-	select MTK_SYSTRACKER
 	select MTK_SYS_CIRQ
 	select MTK_EIC
 	select MTK_GIC
@@ -881,7 +879,6 @@ config ARCH_MT6753
 	select IRQ_DOMAIN_DEBUG
 	select GENERIC_SCHED_CLOCK
 	select VFP_OPT
-	select MTK_SYSTRACKER
 	select MTK_SYS_CIRQ
 	select MTK_EIC
 	select MTK_GIC
@@ -937,7 +934,6 @@ config ARCH_MT6580
 	select MTK_LASTPC
 	select CPU_IDLE
 	select ARM_MT6735_CPUIDLE
-	select MTK_SYSTRACKER_V2
 	select ARM_ERRATA_814220
 	select MTK_POWER_GS
 	select MTK_CPU_STRESS
